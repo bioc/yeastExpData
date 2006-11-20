@@ -1,6 +1,6 @@
 Package: yeastExpData
 Title:  Yeast Experimental Data
-Version: 0.8.2
+Version: 0.8.3
 Author: R. Gentleman
 Description: A collection of different sets of experimental data from yeast.
 Maintainer: R. Gentleman <rgentlem@fhcrc.org>
