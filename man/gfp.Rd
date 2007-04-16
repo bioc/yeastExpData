@@ -92,7 +92,7 @@
       or no signal was detected.}
     \item{\code{"low signal"}}{The tagging was successful, but the
       signal was not sufficiently high above background to permit
-      accurate quantitation (∼50 molecules/cell).}
+      accurate quantitation (about 50 molecules/cell).}
     \item{\code{"technical problem"}}{The protein was detectable but
       could not be quantitated because it did not migrate as a single
       band or comigrated with the internal standards in the gel.}
@@ -135,11 +135,11 @@ keep <- names(which(table(gfp$localization_summary) > 50))
 if (require(lattice)) {
   bwplot(reorder(localization_summary, abundance, median, na.rm = TRUE) ~ log2(abundance), gfp,
          varwidth = TRUE,
-         subset = localization_summary %in% keep)
+         subset = localization_summary \%in\% keep)
 } else {
 
   opar <- par(las = 2, mar = par("mar") + c(3.5, 0, 0, 0))
-  gfp._sub <- subset(gfp, localization_summary %in% keep)
+  gfp._sub <- subset(gfp, localization_summary \%in\% keep)
   gfp._sub$localization_summary <- gfp._sub$localization_summary[, drop = TRUE]
   boxplot(log2(abundance) ~ reorder(localization_summary, abundance, median, na.rm = TRUE), 
           data = gfp._sub, varwidth = TRUE)

@@ -1,9 +1,10 @@
 Package: yeastExpData
 Title:  Yeast Experimental Data
-Version: 0.8.3
+Version: 0.8.4
 Author: R. Gentleman
 Description: A collection of different sets of experimental data from yeast.
 biocViews: ExperimentData
 Maintainer: R. Gentleman <rgentlem@fhcrc.org>
 License: GPL
 Depends: R (>= 2.4), graph (>= 1.9.26)
+Suggests: Biobase, GO, RBGL, YEAST
