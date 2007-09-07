@@ -46,16 +46,16 @@ interaction data}
 
 <<Setup, echo=FALSE, results=hide>>=
 library("yeastExpData")
-library(RBGL)
+library("RBGL")
 require("Rgraphviz", quietly=TRUE)
 data(ccyclered)
 @
 
-In \cite{geone} the authors consider an interesting question. They
+In \cite{Ge} the authors consider an interesting question. They
 assemble gene expression data from a yeast cell-cycle experiment
-\citep{cho}, literature protein-protein interaction (PPI) data and
+\citep{rc:agwtamcc}, literature protein-protein interaction (PPI) data and
 yeast two-hybrid data. We have curated the data slightly to make it
-simpler to carry out the analyses reported in \cite{geone}. In
+simpler to carry out the analyses reported in \cite{Ge}. In
 particular we reduced the data to the \Sexpr{nrow(ccyclered)} genes
 that were common to all experiments. We have also represented most of
 the data in terms of graphs (nodes and edges) since that is the form
@@ -97,7 +97,7 @@ that in \Rpackage{apComplex} applied to TAP data to explore protein
 complex data). We also note that the data used to create these graphs
 is already somewhat out of date and that there is new data available
 from MIPS. We have chosen to continue with these data since they align
-closely with the report in \cite{GePPI}.
+closely with the report in \cite{Ge}.
 
 
 <<litGraph>>=
