@@ -1,6 +1,6 @@
 Package: yeastExpData
 Title:  Yeast Experimental Data
-Version: 0.9.10
+Version: 0.9.11
 Author: R. Gentleman
 Description: A collection of different sets of experimental data from yeast.
 biocViews: ExperimentData
