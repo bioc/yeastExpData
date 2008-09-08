@@ -3,7 +3,7 @@
 % likely to be overwritten.
 %
 % \VignetteIndexEntry{Yeast PPI Example}
-%\VignetteDepends{Biobase, graph, GO, RBGL, org.Sc.sgd.db}
+%\VignetteDepends{Biobase, graph, GO.db, RBGL, org.Sc.sgd.db}
 %\VignetteSuggests{Rgraphviz}
 %\VignetteKeywords{EDA, graphs, protein protein interaction}
 %\VignettePackage{yeastExpData}
