@@ -94,7 +94,7 @@
 
   \url{ftp://genome-ftp.stanford.edu/pub/yeast/protein_info/protein_properties.tab}.  
   This file is updated weekly (Saturday).  The version used here
-  was downloaded on 2006-11-03.
+  was downloaded on 2009-12-03.
 
 }
 \examples{
